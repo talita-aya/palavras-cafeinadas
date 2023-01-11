@@ -586,3 +586,72 @@ button:hover {
   line-height: 22px;
   margin-top: 8px;
 }
+
+.orcamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 56px 0;
+}
+
+.orcamento-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.orcamento-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.orcamento-container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
+  width: fit-content;
+}
+
+.formulario {
+  width: 100%;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 28px;
+}
+
+.formulario form input {
+  border: 1px solid #8F542E;
+  border-radius: 8px;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0 32px 0;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.formulario form textarea {
+  border: 1px solid #8F542E;
+  border-radius: 8px;
+  height: 150px;
+  width: 100%;
+  resize: none;
+  padding: 8px;
+  font-size: 16px;
+  margin: 10px 0 0 0;
+}
+
+.formulario form input:focus, .formulario form textarea:focus {
+  outline: none;
+}
+
+.orcamento-img {
+  height: fit-content;
+}
