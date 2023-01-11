@@ -239,7 +239,7 @@ button:hover {
   line-height: 30px;
   font-size: 18px;
   width: 80%;
-} 
+}
 
 .sobre-nos-img {
   width: 100%;
@@ -375,7 +375,7 @@ button:hover {
   font-size: 18px;
   width: 80%;
   margin: 10px 0;
-} 
+}
 
 .time {
   background-color: #80451F;
@@ -452,4 +452,206 @@ button:hover {
 .time-text p {
   line-height: 28px;
   font-size: 18px;
+}
+
+.servicos-banner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(assets/serviços/detalhe\ livro.png) bottom left no-repeat,
+              url(assets/serviços/detalhe\ livro\ 2.png) bottom right no-repeat;
+  padding-top: 100px;
+}
+
+.servicos-banner h1 {
+  color: #57290B;
+  font-weight: bold;
+  font-size: 88px;
+  line-height: 107px;
+  font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.livraria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0 18px 0;
+}
+
+.livros-container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
+  width: fit-content;
+}
+
+.livros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.livros h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #8F542E;
+  text-decoration: underline;
+  margin-bottom: 48px;
+}
+
+.livros-linha {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.livros-linha h3 {
+  font-size: 16px;
+}
+
+.livros-linha p {
+  font-size: 14px;
+}
+
+.segunda {
+  width: 50%;
+}
+
+.cafeteria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #80451F;
+  padding: 50px 0;
+}
+
+.cafeteria h1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.cafeteria h1::after {
+  content: '';
+  background-color: #B2784A;
+  height: 2px;
+  width: 100%;
+  display: flex;
+  margin: 4px 0 36px 0;
+}
+
+.cafeteria-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1200px;
+}
+
+.wrapper .carousel {
+  display: flex;
+  cursor: pointer;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.carousel .carousel-item {
+  height: 420px;
+  width: calc(100% / 3.5);
+  object-fit: cover;
+  margin: 0 12px;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.carousel-text {
+  margin: 10px 0;
+}
+
+.carousel-text p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 8px;
+}
+
+.orcamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 56px 0;
+}
+
+.orcamento-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.orcamento-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.orcamento-container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
+  width: fit-content;
+}
+
+.formulario {
+  width: 100%;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 28px;
+}
+
+.formulario form input {
+  border: 1px solid #8F542E;
+  border-radius: 8px;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0 32px 0;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.formulario form textarea {
+  border: 1px solid #8F542E;
+  border-radius: 8px;
+  height: 150px;
+  width: 100%;
+  resize: none;
+  padding: 8px;
+  font-size: 16px;
+  margin: 10px 0 0 0;
+}
+
+.formulario form input:focus, .formulario form textarea:focus {
+  outline: none;
+}
+
+.orcamento-img {
+  height: fit-content;
 }
