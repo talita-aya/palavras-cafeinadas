@@ -212,6 +212,7 @@ button:hover {
 
 .container.row {
   display: flex;
+  align-items: center;
 }
 
 .sobre-nos-text {
@@ -224,14 +225,14 @@ button:hover {
   font-size: 40px;
   font-weight: bold;
   font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
+  width: fit-content;
 }
 
 .grifado {
   background-color: #FBC9A8;
   height: 28px;
-  width: 35%;
-  margin-top: -25px;
-  margin-left: -20px;
+  width: 118%;
+  margin: -25px 0 20px -20px;
 }
 
 .sobre-nos-text p {
@@ -256,6 +257,16 @@ button:hover {
   background-color: #80451F;
   height: 100%;
   margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.servicos.sobre-nos-page {
+  background-color: #80451F;
+  height: 100%;
+  margin-top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -316,4 +327,129 @@ button:hover {
 
 .servicos button:hover {
   background-color: #b28c74;
+}
+
+.sobre-nos-banner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(assets/sobre-nos/Intro\ Sobre\ nós.png) no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.sobre-nos-banner h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 88px;
+  line-height: 107px;
+  font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.sobre-nos-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 50px 0;
+}
+
+.sobre-nos-page-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sobre-nos-page-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
+  width: fit-content;
+}
+
+.sobre-nos-page-text p {
+  line-height: 30px;
+  font-size: 18px;
+  width: 80%;
+  margin: 10px 0;
+} 
+
+.time {
+  background-color: #80451F;
+  padding: 50px 0 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-time-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time h1::after {
+  content: '';
+  background-color: #B2784A;
+  height: 3px;
+  width: 80%;
+  display: flex;
+  margin: 8px 0 40px 0;
+}
+
+.card-time {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 40px;
+  margin-bottom: 32px;
+}
+
+.card-time img {
+  margin-right: 28px;
+}
+
+.time-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.time-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.time-text h2::after {
+  content: '';
+  background-color: #B2784A;
+  height: 2px;
+  width: 100%;
+  display: flex;
+  margin: 4px 0 20px 0;
+}
+
+.time-text p {
+  line-height: 28px;
+  font-size: 18px;
 }
