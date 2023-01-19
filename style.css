@@ -594,18 +594,22 @@ button:hover {
   padding: 56px 0;
 }
 
+.space {
+  height: 100px;
+  display: flex;
+}
+
 .orcamento-box {
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .orcamento-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .orcamento-container h1 {
@@ -613,6 +617,8 @@ button:hover {
   font-weight: bold;
   font-family: "Cormorant Garamond", Arial, Helvetica, sans-serif;
   width: fit-content;
+  color: #1F0C00;
+  width: 100%;
 }
 
 .formulario {
@@ -654,4 +660,46 @@ button:hover {
 
 .orcamento-img {
   height: fit-content;
+}
+
+.contact-container {
+  background-color: #8F542E;
+  width: 40%;
+  height: 711px;
+  margin-left: -50px;
+  padding: 24px 43px 43px 43px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact.underline::after {
+  content: '';
+  background-color: #B2784A;
+  height: 2px;
+  width: 90%;
+  display: flex;
+  margin: 25px 0;
+}
+
+.contact-item a {
+  display: flex;
+  padding: 18px 0;
+  color: #EBDACC;
+  width: fit-content;
+}
+
+.contact-item a:hover {
+  color: #FBC9A8;
+}
+
+.contact-item img {
+  margin-right: 10px;
+}
+
+.contact-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
