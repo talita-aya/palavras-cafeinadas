@@ -674,6 +674,15 @@ button:hover {
   justify-content: space-between;
 }
 
+.contact.underline::after {
+  content: '';
+  background-color: #B2784A;
+  height: 2px;
+  width: 90%;
+  display: flex;
+  margin: 25px 0;
+}
+
 .contact-item a {
   display: flex;
   padding: 18px 0;
