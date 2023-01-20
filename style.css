@@ -243,6 +243,9 @@ button:hover {
 
 .sobre-nos-img {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .sobre-nos-img img {
@@ -702,4 +705,116 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 1500px) {
+  .sobre-nos {
+    height: 100%;
+  }
+
+  .sobre-nos-img img {
+    width: 60%;
+    padding: 80px 0;
+  }
+
+  .servicos {
+    margin-top: -100px;
+  }
+
+  .servicos h1 {
+    padding-top: 130px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width:1200px) {
+  .logo-footer {
+    display: none;
+  }
+
+  .sociais {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .contato p,
+  .sociais p {
+    margin: 8px;
+  }
+
+  .contato h1,
+  .sociais h1 {
+    margin-bottom: 15px;
+  }
+
+  .banner h1,
+  .banner h2 {
+    width: 80%;
+  }
+
+  button {
+    width: 350px;
+  }
+
+  .sobre-nos {
+    height: calc(100vh - 400px);
+  }
+
+  .sobre-nos-page-text p {
+    width: 100%;
+    line-height: 35px;
+  }
+
+  .sobre-nos-img {
+    display: none;
+  }
+
+  .card-servicos {
+    width: 80%;
+  }
+
+  .card-time {
+    width: 95%;
+  }
+
+  .livros-linha {
+    width: 100%;
+  }
+
+  .segunda {
+    width: 65%;
+  }
+
+  .orcamento-img {
+    display: none;
+  }
+
+  .cafeteria-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel .carousel-item {
+    width: 90%;
+    height: 250px;
+    margin-bottom: 16px;
+  }
+
+  .carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    margin-right: 32px;
+  }
 }
