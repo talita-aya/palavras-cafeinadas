@@ -991,14 +991,27 @@ button:hover {
 }
 
 @media screen and (max-width: 599px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  header ul {
+    width: 100%;
+  }
+
+  header ul li:nth-child(3) {
+    display: none;
+  }
+  
   .tel-icon {
     display: none;
   }
 
   .tel_underline_mobile {
-    display: flex;
+    display: none;
   }
-  
 
   .mobile-phone::after {
     display: none;
@@ -1018,6 +1031,10 @@ button:hover {
     flex-direction: column;
   }
 
+  .contato {
+    width: 80%;
+  }
+
   .sociais {
     width: 80%;
     display: flex;
@@ -1026,9 +1043,8 @@ button:hover {
     margin: 32px 0;
   }
 
-  .creditos-container {
-    display: flex;
-    flex-direction: column;
+  .creditos {
+    display: none;
   }
 
   .contato p,
@@ -1043,13 +1059,35 @@ button:hover {
 
   .banner h1,
   .banner h2 {
-    width: 80%;
+    width: 100%;
+  }
+
+  .banner h1 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .banner h2 {
+    font-size: 20px;
   }
 
   button {
     width: 350px;
   }
 
+  .sobre-nos {
+    height: calc(100vh - 200px);
+  }
+
+  .servicos {
+    margin-top: -40px;
+  }
+
+  .servicos h1 {
+    width: 100%;
+    text-align: center;
+  }
+  
   .card-servicos {
     display: flex;
     flex-direction: column;
@@ -1063,13 +1101,13 @@ button:hover {
     width: 100%;
   }
 
-  .sobre-nos {
-    height: calc(100vh - 400px);
-  }
-
   .sobre-nos-page-text p {
     width: 100%;
     line-height: 35px;
+  }
+
+  .sobre-nos-banner h1 {
+    font-size: 60px;
   }
 
   .sobre-nos-img {
@@ -1094,6 +1132,10 @@ button:hover {
     background: url(assets/serviços/detalhe\ livro.png) bottom left no-repeat,
               url(assets/serviços/detalhe\ livro\ 2.png) bottom right no-repeat;
     background-size: 40%;
+  }
+
+  .servicos-banner h1 {
+    font-size: 60px;
   }
 
   .livros-linha {
@@ -1127,20 +1169,26 @@ button:hover {
   }
 
   .carousel .carousel-item {
-    width: 90%;
-    height: 250px;
+    width: 350px;
+    height: 450px;
     margin-bottom: 16px;
   }
 
   .carousel-item {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .carousel-item img {
-    height: 100%;
-    margin-right: 32px;
+    height: 65%;
+  }
+
+  .orcamento-container h1 {
+    width: 80%;
+    font-size: 35px;
+    text-align: center;
   }
 
   .orcamento-box {
@@ -1153,6 +1201,6 @@ button:hover {
 
   .contact-container {
     width: 100%;
-    margin: 0 0 32px 0;
+    margin: 0 0 40px 0;
   }
 }
