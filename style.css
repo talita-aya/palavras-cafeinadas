@@ -66,6 +66,10 @@ header ul li a::after {
   margin-right: 8px;
 }
 
+.tel_underline_mobile {
+  display: none;
+}
+
 footer {
   background-color: #57290B;
   width: 100%;
@@ -243,6 +247,9 @@ button:hover {
 
 .sobre-nos-img {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .sobre-nos-img img {
@@ -702,4 +709,498 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 1500px) {
+  .sobre-nos {
+    height: 100%;
+  }
+
+  .sobre-nos-img img {
+    width: 60%;
+    padding: 80px 0;
+  }
+
+  .servicos {
+    margin-top: -100px;
+  }
+
+  .servicos h1 {
+    padding-top: 130px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width:1200px) {
+  .logo-footer {
+    display: none;
+  }
+
+  .sociais {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .contato p,
+  .sociais p {
+    margin: 8px;
+  }
+
+  .contato h1,
+  .sociais h1 {
+    margin-bottom: 15px;
+  }
+
+  .banner h1,
+  .banner h2 {
+    width: 80%;
+  }
+
+  button {
+    width: 350px;
+  }
+
+  .sobre-nos {
+    height: calc(100vh - 400px);
+  }
+
+  .sobre-nos-page-text p {
+    width: 100%;
+    line-height: 35px;
+  }
+
+  .sobre-nos-img {
+    display: none;
+  }
+
+  .card-servicos {
+    width: 80%;
+  }
+
+  .card-time {
+    width: 95%;
+  }
+
+  .livros-linha {
+    width: 100%;
+  }
+
+  .segunda {
+    width: 65%;
+  }
+
+  .orcamento-img {
+    display: none;
+  }
+
+  .cafeteria-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel .carousel-item {
+    width: 90%;
+    height: 250px;
+    margin-bottom: 16px;
+  }
+
+  .carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    margin-right: 32px;
+  }
+}
+
+@media screen and (max-width: 899px) and (min-width: 600px) {
+  .tel-icon {
+    display: none;
+  }
+
+  .tel_underline_mobile {
+    display: flex;
+  }
+  
+
+  .mobile-phone::after {
+    display: none;
+  }
+
+  footer {
+    height: 100%;
+    padding: 50px 0;
+  }
+
+  .logo-footer {
+    display: none;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sociais {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 32px 0;
+  }
+
+  .creditos-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contato p,
+  .sociais p {
+    margin: 8px;
+  }
+
+  .contato h1,
+  .sociais h1 {
+    margin-bottom: 15px;
+  }
+
+  .banner h1,
+  .banner h2 {
+    width: 80%;
+  }
+
+  button {
+    width: 350px;
+  }
+
+  .card-servicos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-info {
+    margin-top: 32px;
+  }
+
+  .sobre-nos-text p {
+    width: 100%;
+  }
+
+  .sobre-nos {
+    height: calc(100vh - 400px);
+  }
+
+  .sobre-nos-page-text p {
+    width: 100%;
+    line-height: 35px;
+  }
+
+  .sobre-nos-img {
+    display: none;
+  }
+
+  .card-servicos {
+    width: 80%;
+  }
+
+  .card-time {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .time-text {
+    margin-top: 32px;
+  }
+
+  .servicos-banner {
+    background: url(assets/serviços/detalhe\ livro.png) bottom left no-repeat,
+              url(assets/serviços/detalhe\ livro\ 2.png) bottom right no-repeat;
+    background-size: 40%;
+  }
+
+  .livros-linha {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .livro-item {
+    margin-top: 32px;
+  }
+
+  .livro-item:first-child {
+    margin-top: 0;
+  }
+
+  .orcamento-img {
+    display: none;
+  }
+
+  .cafeteria-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel .carousel-item {
+    width: 90%;
+    height: 250px;
+    margin-bottom: 16px;
+  }
+
+  .carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    margin-right: 32px;
+  }
+
+  .orcamento-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-container {
+    width: 100%;
+    margin: 0 0 32px 0;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  header ul {
+    width: 100%;
+  }
+
+  header ul li:nth-child(3) {
+    display: none;
+  }
+  
+  .tel-icon {
+    display: none;
+  }
+
+  .tel_underline_mobile {
+    display: none;
+  }
+
+  .mobile-phone::after {
+    display: none;
+  }
+
+  footer {
+    height: 100%;
+    padding: 50px 0;
+  }
+
+  .logo-footer {
+    display: none;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contato {
+    width: 80%;
+  }
+
+  .sociais {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 32px 0;
+  }
+
+  .creditos {
+    display: none;
+  }
+
+  .contato p,
+  .sociais p {
+    margin: 8px;
+  }
+
+  .contato h1,
+  .sociais h1 {
+    margin-bottom: 15px;
+  }
+
+  .banner h1,
+  .banner h2 {
+    width: 100%;
+  }
+
+  .banner h1 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .banner h2 {
+    font-size: 20px;
+  }
+
+  button {
+    width: 350px;
+  }
+
+  .sobre-nos {
+    height: calc(100vh - 200px);
+  }
+
+  .servicos {
+    margin-top: -40px;
+  }
+
+  .servicos h1 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .card-servicos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-info {
+    margin-top: 32px;
+  }
+
+  .sobre-nos-text p {
+    width: 100%;
+  }
+
+  .sobre-nos-page-text p {
+    width: 100%;
+    line-height: 35px;
+  }
+
+  .sobre-nos-banner h1 {
+    font-size: 60px;
+  }
+
+  .sobre-nos-img {
+    display: none;
+  }
+
+  .card-servicos {
+    width: 80%;
+  }
+
+  .card-time {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .time-text {
+    margin-top: 32px;
+  }
+
+  .servicos-banner {
+    background: url(assets/serviços/detalhe\ livro.png) bottom left no-repeat,
+              url(assets/serviços/detalhe\ livro\ 2.png) bottom right no-repeat;
+    background-size: 40%;
+  }
+
+  .servicos-banner h1 {
+    font-size: 60px;
+  }
+
+  .livros-linha {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .livro-item {
+    margin-top: 32px;
+  }
+
+  .livro-item:first-child {
+    margin-top: 0;
+  }
+
+  .orcamento-img {
+    display: none;
+  }
+
+  .cafeteria-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel .carousel-item {
+    width: 350px;
+    height: 450px;
+    margin-bottom: 16px;
+  }
+
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .carousel-item img {
+    height: 65%;
+  }
+
+  .orcamento-container h1 {
+    width: 80%;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .orcamento-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-container {
+    width: 100%;
+    margin: 0 0 40px 0;
+  }
 }
